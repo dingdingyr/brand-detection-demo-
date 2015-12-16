@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">商标检测</string>
+
+    <string name="brand_detect">商标检测</string>
+    <string name="brand_detecting">正在检测中...</string>
+    <string name="detect_fail">检测失败</string>
+</resources>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:orderInCategory="100"
+        android:title="选择图片"
+        app:showAsAction="always">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/get_pic_from_camera"
+                    android:title="拍照"></item>
+                <item
+                    android:id="@+id/get_pic_from_album"
+                    android:title="图库"></item>
+            </group>
+        </menu>
+    </item>
+</menu>
+
